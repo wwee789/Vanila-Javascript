@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  main {
+    background-color: black;
+    padding: 40px;
+    width: 400px;
+  }
+  
+  button {
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+  
+  .number,
+  .equal {
+    background-color: #363539;
+  }
+  
+  .operator {
+    background-color: #fe8e00;
+  }
+  .calculatorRow {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .result {
+    width: 79%;
+    color: white;
+    background-color: black;
+    text-align: end;
+  }
+  
+  .reset {
+    width: 25%;
+    background-color: #a7aab0;
+  }
+  .number,
+  .equal,
+  .operator {
+    width: 25%;
+  }
+  
+  .calculatorRow:last-child .number {
+    width: 50%;
+  }
+  
